@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A creative personal portfolio showcasing web development projects and skills.">
+  <meta name="keywords" content="portfolio, web developer, projects, creative, contact">
+  <meta name="author" content="Your Name">
+  <meta property="og:title" content="My Creative Portfolio">
+  <meta property="og:description" content="A vibrant personal portfolio showcasing my web development expertise.">
+  <meta property="og:image" content="https://via.placeholder.com/600x400">
+  <meta property="og:url" content="https://yourportfolio.com">
+  <meta property="og:type" content="website">
+  <title>Fresh Portfolio</title>
+  <link rel="icon" href="https://via.placeholder.com/16x16" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      background: #FAF3E3; /* Light Beige Background */
+      color: #374045; /* Dark Gray Text */
+    }
+
+    /* Header */
+    header {
+      background: #3C6E71; /* Soft Dark Green */
+      color: #FAF3E3; /* Light Beige */
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+    }
+
+    /* Navigation */
+    nav {
+      background: #D9D9D9; /* Light Gray */
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #374045; /* Dark Gray */
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #E09F3E; /* Pastel Orange */
+    }
+
+    /* Sections */
+    .container {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      color: #3C6E71; /* Soft Dark Green */
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    /* About Section */
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #E09F3E; /* Pastel Orange */
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      color: #555; /* Medium Gray */
+    }
+
+    /* Projects Section */
+    .projects {
+      display: cenetr;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: #FAF3E3; /* Light Beige */
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .project h3 {
+      margin: 15px 0;
+      color: #E09F3E; /* Pastel Orange */
+    }
+
+    /* Contact Section */
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      color: #3C6E71; /* Soft Dark Green */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #3C6E71; /* Soft Dark Green */
+      color: #FAF3E3; /* Light Beige */
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9rem;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>James Portfolio</h1>
+    <p>Welcome to my refreshing and unique portfolio website!</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about" aria-label="Navigate to About section">About</a>
+    <a href="#projects" aria-label="Navigate to Projects section">Projects</a>
+    <a href="#contact" aria-label="Navigate to Contact section">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <img src="https://img.goodfon.com/wallpaper/big/9/b7/priroda-peizazh-pole-travy-tsvety-maki-derevo-vecher-zakat.webp" alt="Profile Picture">
+      <p>
+       <B> "Hello! I'm a Photographer James"</B>Photography is more than just capturing moments—it's about telling a story, evoking emotions, and preserving memories that last a lifetime.<br>I am a, 
+       a passionate photographer specializing in [portrait, landscape, wedding, street, product, etc.] photography.</br>
+       With a keen eye for detail and a love for creativity, I strive to bring each scene to life through composition, lighting, and perspective.
+        Whether it's the raw beauty of nature, the intimate emotions of a wedding, or the striking aesthetics of a product, my goal is to create images that resonate and inspire.  
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" alt="Project 1 Screenshot">
+        <h3>Project 1</h3>
+        <p>A sleek portfolio showcasing advanced HTML, CSS, and JavaScript techniques.</p>
+      </div>
+      <div class="project">
+        <img src="https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=" alt="Project 2 Screenshot">
+        <h3>Project 2</h3>
+        <p>An e-commerce platform demonstrating responsive Photography and interactivity.</p>
+      </div>
+      <div class="project">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/kj8wccw0-0/poster/b/j/z/medium-p41515-nature-wall-poster-butterfly-on-the-flower-high-original-imafyuwr76vzf2ch.jpeg?q=90&crop=false" alt="Project 3 Screenshot">
+        <h3>Project 3</h3>
+        <p>A creative blog with dynamic content and excellent performance optimization.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:jamesphotographer@gmail.com">jamesphotographer@gmail.com</a></p>
+      <p>Phone: +91 9133079929</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/jamesphotographer" target="_blank">View my LinkedIn</a></p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Fresh Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
